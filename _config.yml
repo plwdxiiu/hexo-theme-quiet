@@ -41,20 +41,20 @@ headers:
     }
     archives: {
       # 这里会替换掉两个变量{ year 年，number 总数 } 当然也可以不写这两个变量
-      message: "居然用了 year 年一共才写了 number 篇文章!",
-      icon: "https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgicon-remixicon.svg"
-    }
-    tags: {
-      message: "这里是一些展示的标签",
-      icon: "https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgtags.svg"
-    }
-    links: {
-      message: "我和我的小伙伴们",
-      icon: "https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imga20r7-cftji.svg"
+      message: "number Articles in year years",
+      icon: "https://safesfiles.oss-cn-beijing.aliyuncs.com/safes/ZHNX30835/butterfly_202208301554.png"
     }
     categories: {
-      message: "文章分类",
-      icon: "https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgblogmyCategory.svg"
+      message: "CATEGORIES",
+      icon: "https://safesfiles.oss-cn-beijing.aliyuncs.com/safes/ZHNX30835/008-mushroom_202208301554.png"
+    }
+    tags: {
+      message: "TAGS",
+      icon: "https://safesfiles.oss-cn-beijing.aliyuncs.com/safes/ZHNX30835/023-watering-can_202208301557.png"
+    }
+    links: {
+      message: "links",
+      icon: "https://safesfiles.oss-cn-beijing.aliyuncs.com/safes/ZHNX30835/023-watering-can_202208301557.png"
     }
 
 # 网页访问统计
@@ -83,10 +83,22 @@ bottomIcon:
 # 友情链接
 linksList:
   - {
-    title: 'Quiet',
-    intro: '收藏回忆与分享技术的地方',
-    link: 'https://github.com/79E/hexo-theme-quiet',
-    image: 'https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgIMG_7327.jpeg'
+    title: 'My Github',
+    intro: '我的github主页',
+    link: 'https://github.com/plwdxiiu',
+    image: 'https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imggithub.png'
+  }
+  - {
+    title: 'Onling Tools',
+    intro: '在线工具箱',
+    link: 'https://tool.lu/',
+    image: 'https://safesfiles.oss-cn-beijing.aliyuncs.com/safes/ZHNX30835/042-picnic_202208301620.png'
+  }
+  - {
+    title: 'FE Handbook',
+    intro: '前端面试手册',
+    link: 'https://www.frontendinterviewhandbook.com/zh/introduction/',
+    image: 'https://safesfiles.oss-cn-beijing.aliyuncs.com/safes/ZHNX30835/书_202208301623.png'
   }
 
 #默认的cover (默认缩略图) 在没有填写（这里可以替换（可以是api也可以是固定的图））
