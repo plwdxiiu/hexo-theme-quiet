@@ -1,7 +1,7 @@
 # 网站标题
 title: CCchen's blog
 # 网站标题后缀
-suffix: Quiet
+suffix:
 # 作者名称
 author: CC
 # 网站关键字
@@ -32,7 +32,7 @@ menus:
 # logo
 logo: /image/logo.png
 # 网页标签上那个小图标 一定要用本地存储
-icon: /image/flower.ico
+icon: /image/favicon.ico
 # 每个页面的展示的图标和一句话
 headers:
     home: {
