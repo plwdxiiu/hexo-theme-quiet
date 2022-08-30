@@ -38,25 +38,15 @@
 							<h2 class="post-card-title">
 								<%= post.title %>
 							</h2>
+							<div class="info-data">
+								<%- date(post.date, "YYYY-MM-DD" ) %>
+							</div>
 							<% if(post.cover){ %>
 								<img src="<%= post.cover %>" alt="Quiet">
 							<% }else{ %>
 								<img src="<%- theme.default_cover %>" alt="Quiet">
 							<% } %>
 						</a>
-						<div class="post-card-meat">
-							<div class="meat-info">
-								<div class="info-auth">
-										<a href="<%- post.categories.data[0] && post.categories.data[0].path %>">
-											<%- post.categories.data[0] ? post.categories.data[0].name : theme.author ? theme.author : 'Quiet' %>
-										</a>
-								</div>
-								<div class="info-data">
-									<%- date(post.date, "YYYY-MM-DD" ) %>
-								</div>
-							</div>
-							<div class="meat-type"></div>
-						</div>
 					</div>
 				<% }) %>
 			</div>

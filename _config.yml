@@ -1,15 +1,15 @@
 # 网站标题
-title: Hexo主题-Quiet主题-Hexo扁平化主题安装
+title: CCchen's blog
 # 网站标题后缀
 suffix: Quiet
 # 作者名称
-author: Joey
+author: CC
 # 网站关键字
-keyword: hexo主题,hexo扁平化主题,Quiet主题
+keyword: 技术博客,front-end, javascript, css, html, github, vue
 #false是否开启文章背景图显示(随机图片)
 is_article_img: true  
 # 网站描述
-web_description: 描述
+web_description: This is CC's blog, to record my front-end learning journey and daily life.
 # 首页文章布局 默认 'card' 可选择 'block-card'
 home_layout: card
 # 导航名称
@@ -32,12 +32,12 @@ menus:
 # logo
 logo: /image/logo.png
 # 网页标签上那个小图标 一定要用本地存储
-icon: /image/favicon.ico
+icon: /image/flower.ico
 # 每个页面的展示的图标和一句话
 headers:
     home: {
-      message: "首页这里应该有一句话，你想想写点什么？",
-      icon: "/image/logo.png"
+      message: "Hi, I'm CC.",
+      icon: /image/logo.png
     }
     archives: {
       # 这里会替换掉两个变量{ year 年，number 总数 } 当然也可以不写这两个变量
@@ -78,7 +78,7 @@ bottomIcon:
     #图标    
     iconLink: 'https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imggithub.png',
     #跳转链接    
-    toUrl: 'https://github.com/79E/hexo-theme-quiet'
+    toUrl: 'https://github.com/plwdxiiu'
   }
 # 友情链接
 linksList:
@@ -90,4 +90,4 @@ linksList:
   }
 
 #默认的cover (默认缩略图) 在没有填写（这里可以替换（可以是api也可以是固定的图））
-default_cover: http://eett.cc/pictures?type=pc&category=fengjing
+default_cover: /image/ladybug.png
