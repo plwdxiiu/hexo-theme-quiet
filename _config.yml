@@ -65,7 +65,7 @@ web_analytics:
 gitalk:
   clientID: 6b93ae26cc4bfe571364 # （需要替换）GitHub Application Client ID.
   clientSecret: 0a421b8d6b87427151ce243a2d804b296e5d3fbf #（需要替换）GitHub Application Client Secret.
-  repo: https://github.com/plwdxiiu/blog-comments-db #（需要替换）GitHub repository.
+  repo: blog-comments-db #（需要替换）GitHub repository.
   owner: plwdxiiu #（需要替换）GitHub repository 所有者，可以是个人或者组织。
   admin: ['plwdxiiu'] #（需要替换）GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
 
