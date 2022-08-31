@@ -1,7 +1,7 @@
 # 网站标题
 title: CCchen's blog
 # 网站标题后缀
-suffix:
+# suffix:
 # 作者名称
 author: CC
 # 网站关键字
@@ -59,15 +59,15 @@ headers:
 
 # 网页访问统计
 web_analytics:  
-  enable: false #需要改为true
-  baidu: 4b5fe1472f22fadsfs  # （替换）百度统计的 Key，参见 https://tongji.baidu.com/sc-web/10000033910/home/site/getjs?siteId=13751376 代码获取中 hm.js? 后边的字符串
+  enable: true #需要改为true
+  baidu: 22035a66ebbf23c7f3394ec64cb82f8b  # （替换）百度统计的 Key，参见 https://tongji.baidu.com/sc-web/10000033910/home/site/getjs?siteId=13751376 代码获取中 hm.js? 后边的字符串
 # 评论 
 gitalk:
-  clientID: 02b3c # （需要替换）GitHub Application Client ID.
-  clientSecret: adfc7b4 #（需要替换）GitHub Application Client Secret.
-  repo: gimment #（需要替换）GitHub repository.
-  owner: duneng #（需要替换）GitHub repository 所有者，可以是个人或者组织。
-  admin: ['duneng'] #（需要替换）GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
+  clientID: 6b93ae26cc4bfe571364 # （需要替换）GitHub Application Client ID.
+  clientSecret: 0a421b8d6b87427151ce243a2d804b296e5d3fbf #（需要替换）GitHub Application Client Secret.
+  repo: https://github.com/plwdxiiu/blog-comments-db #（需要替换）GitHub repository.
+  owner: plwdxiiu #（需要替换）GitHub repository 所有者，可以是个人或者组织。
+  admin: ['plwdxiiu'] #（需要替换）GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
 
 # 底部显示的图标（github 或者其他）
 bottomIcon: 
